@@ -43,7 +43,7 @@ using stat_t = struct stat;
 namespace
 {
 #if defined(__WIIU__) && defined(__WUPS__)
-constexpr std::uint16_t DEFAULT_PORT = 21;
+constexpr std::uint16_t DEFAULT_PORT = 22151;
 #else
 constexpr std::uint16_t DEFAULT_PORT = 5000;
 #endif
